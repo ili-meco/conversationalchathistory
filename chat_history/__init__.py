@@ -8,7 +8,6 @@ from .models import ConversationRecord, FeedbackRecord, MessageRecord
 from .repository import (
     ConversationNotFoundError,
     ConversationRepository,
-    InMemoryConversationRepository,
     InvalidFeedbackTargetError,
 )
 
@@ -18,7 +17,6 @@ __all__ = [
     "ConversationRepository",
     "CosmosConversationRepository",
     "FeedbackRecord",
-    "InMemoryConversationRepository",
     "InvalidFeedbackTargetError",
     "MessageRecord",
     "create_cosmos_repository",
